@@ -26,7 +26,7 @@ pod 'rn-fetch-blob',
 :path => '../node_modules/rn-fetch-blob'
 pod 'RNFS',
  :path => '../node_modules/react-native-fs'
-target 'Atlas_android' do
+target 'elm3ml' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -49,7 +49,7 @@ target 'Atlas_android' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'Atlas_androidTests' do
+  target 'elm3mlTests' do
     inherit! :complete
     # Pods for testing
   end
